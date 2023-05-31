@@ -3,10 +3,13 @@
     "",
     "\\GeekShooping",
     "\\GeekShooping\\GeekShooping.ProductApi",
+    "\\GeekShooping\\GeekShooping.ProductApi\\Model",
+    "\\GeekShooping\\GeekShooping.ProductApi\\Model\\Base",
+    "\\GeekShooping\\GeekShooping.ProductApi\\Model\\Context",
     "\\GeekShooping\\GeekShooping.ProductApi\\obj",
     "\\GeekShooping\\GeekShooping.ProductApi\\obj\\Release",
     "\\GeekShooping\\GeekShooping.ProductApi\\obj\\Release\\net6.0"
   ],
-  "SelectedNode": "\\GeekShooping\\GeekShooping.ProductApi\\obj\\Release\\net6.0\\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs",
+  "SelectedNode": "\\GeekShooping\\GeekShooping.ProductApi\\Model\\Context\\SqlContext.cs",
   "PreviewInSolutionExplorer": false
 }

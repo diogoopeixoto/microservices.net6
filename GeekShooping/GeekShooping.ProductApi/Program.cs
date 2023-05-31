@@ -1,3 +1,6 @@
+using GeekShooping.ProductApi.Model.Context;
+using Microsoft.EntityFrameworkCore;
+
 namespace GeekShooping.ProductApi
 {
     public class Program
@@ -5,6 +8,9 @@ namespace GeekShooping.ProductApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            
+            builder.Services.AddDbContext<SqlContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("SqlContext") ?? throw new InvalidOperationException("Connection string 'SqlContext' not found.")));
 
             // Add services to the container.
 
