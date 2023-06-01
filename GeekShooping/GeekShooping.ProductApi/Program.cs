@@ -1,3 +1,5 @@
+using AutoMapper;
+using GeekShooping.ProductApi.Config;
 using GeekShooping.ProductApi.Model.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,6 +13,11 @@ namespace GeekShooping.ProductApi
             
             builder.Services.AddDbContext<SqlContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("SqlContext") ?? throw new InvalidOperationException("Connection string 'SqlContext' not found.")));
+
+            //Auto Mapper
+            IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
+            builder.Services.AddSingleton(mapper);
+            builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             // Add services to the container.
 
