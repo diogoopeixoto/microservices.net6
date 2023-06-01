@@ -11,6 +11,6 @@ namespace GeekShooping.ProductApi.Model.Context
         public SqlContext(DbContextOptions<SqlContext> options)
             : base(options) { }
         
-       public System.Data.Entity.DbSet<Product> Products { get; set; } 
+       public Microsoft.EntityFrameworkCore.DbSet<Product> Products { get; set; } 
     }
 }
