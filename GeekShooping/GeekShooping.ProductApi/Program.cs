@@ -1,6 +1,7 @@
 using AutoMapper;
 using GeekShooping.ProductApi.Config;
 using GeekShooping.ProductApi.Model.Context;
+using GeekShooping.ProductApi.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace GeekShooping.ProductApi
@@ -18,6 +19,8 @@ namespace GeekShooping.ProductApi
             IMapper mapper = MappingConfig.RegisterMaps().CreateMapper();
             builder.Services.AddSingleton(mapper);
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
             // Add services to the container.
 
