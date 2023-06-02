@@ -28,7 +28,7 @@ namespace GeekShooping.ProductApi.Controllers
         public async Task<ActionResult<ProductVO>> FindById(long id)
         {
             var product = await _repository.FindById(id);
-            if (product == null) return NotFound();
+            if (product.Id <= 0) return NotFound();
             return Ok(product);
         }
 
@@ -53,7 +53,7 @@ namespace GeekShooping.ProductApi.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(long id)
         {
-            var status = await _repository.DeleteById(id);
+            var status = await _repository.Delete(id);
             if (!status) return BadRequest();
             
 

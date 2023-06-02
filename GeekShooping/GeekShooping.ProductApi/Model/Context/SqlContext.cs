@@ -1,16 +1,15 @@
-﻿using System.Data.Entity;
-using Microsoft.EntityFrameworkCore;
-using DbContext = Microsoft.EntityFrameworkCore.DbContext;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace GeekShooping.ProductApi.Model.Context
 {
     public class SqlContext : DbContext
     {
         public SqlContext() { }
-        
+
         public SqlContext(DbContextOptions<SqlContext> options)
             : base(options) { }
-        
-       public Microsoft.EntityFrameworkCore.DbSet<Product> Products { get; set; } 
+
+        public DbSet<Product> Products { get; set; }
     }
 }
+

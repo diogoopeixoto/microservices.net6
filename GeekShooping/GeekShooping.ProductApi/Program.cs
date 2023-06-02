@@ -2,8 +2,9 @@ using AutoMapper;
 using GeekShooping.ProductApi.Config;
 using GeekShooping.ProductApi.Interfaces;
 using GeekShooping.ProductApi.Model.Context;
-using GeekShooping.ProductApi.Repository;
+using GeekShopping.ProductAPI.Repository;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace GeekShooping.ProductApi
 {
@@ -28,7 +29,12 @@ namespace GeekShooping.ProductApi
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+
+            builder.Services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "GeekShopping.ProductAPI", Version = "v1" });
+            });
+
 
             var app = builder.Build();
 

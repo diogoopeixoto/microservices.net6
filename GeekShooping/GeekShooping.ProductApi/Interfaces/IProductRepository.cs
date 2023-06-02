@@ -8,6 +8,8 @@ namespace GeekShooping.ProductApi.Interfaces
         Task<ProductVO> FindById(long id);
         Task<ProductVO> Create(ProductVO vo);
         Task<ProductVO> Update(ProductVO vo);
-        Task<bool> DeleteById(long id);
+        Task<bool> Delete(long id);
     }
 }
+
+
