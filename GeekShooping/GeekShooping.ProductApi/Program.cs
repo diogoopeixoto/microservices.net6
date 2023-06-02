@@ -1,5 +1,6 @@
 using AutoMapper;
 using GeekShooping.ProductApi.Config;
+using GeekShooping.ProductApi.Interfaces;
 using GeekShooping.ProductApi.Model.Context;
 using GeekShooping.ProductApi.Repository;
 using Microsoft.EntityFrameworkCore;
