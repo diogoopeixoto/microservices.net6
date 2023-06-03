@@ -3,15 +3,16 @@
     "",
     "\\GeekShooping",
     "\\GeekShooping\\GeekShooping.ProductApi",
-    "\\GeekShooping\\GeekShooping.ProductApi\\Config",
     "\\GeekShooping\\GeekShooping.ProductApi\\Data",
     "\\GeekShooping\\GeekShooping.ProductApi\\Data\\ValueObjects",
-    "\\GeekShooping\\GeekShooping.ProductApi\\Migrations",
-    "\\GeekShooping\\GeekShooping.ProductApi\\obj",
-    "\\GeekShooping\\GeekShooping.ProductApi\\obj\\Release",
-    "\\GeekShooping\\GeekShooping.ProductApi\\obj\\Release\\net6.0",
-    "\\GeekShooping\\GeekShooping.ProductApi\\Repository"
+    "\\GeekShooping\\GeekShooping.Web",
+    "\\GeekShooping\\GeekShooping.Web\\Models",
+    "\\GeekShooping\\GeekShooping.Web\\Services",
+    "\\GeekShooping\\GeekShooping.Web\\Services\\IServices",
+    "\\GeekShooping\\GeekShooping.Web\\Util",
+    "\\GeekShooping\\GeekShooping.Web\\Views",
+    "\\GeekShooping\\GeekShooping.Web\\Views\\Shared"
   ],
-  "SelectedNode": "\\GeekShooping\\GeekShooping.ProductApi\\Program.cs",
+  "SelectedNode": "\\GeekShooping\\GeekShooping.Web\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
