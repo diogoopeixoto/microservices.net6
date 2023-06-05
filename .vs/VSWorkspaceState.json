@@ -2,17 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\GeekShooping",
-    "\\GeekShooping\\GeekShooping.ProductApi",
-    "\\GeekShooping\\GeekShooping.ProductApi\\Data",
-    "\\GeekShooping\\GeekShooping.ProductApi\\Data\\ValueObjects",
     "\\GeekShooping\\GeekShooping.Web",
-    "\\GeekShooping\\GeekShooping.Web\\Models",
+    "\\GeekShooping\\GeekShooping.Web\\Controllers",
     "\\GeekShooping\\GeekShooping.Web\\Services",
     "\\GeekShooping\\GeekShooping.Web\\Services\\IServices",
     "\\GeekShooping\\GeekShooping.Web\\Util",
     "\\GeekShooping\\GeekShooping.Web\\Views",
-    "\\GeekShooping\\GeekShooping.Web\\Views\\Shared"
+    "\\GeekShooping\\GeekShooping.Web\\Views\\Product",
+    "\\GeekShooping\\GeekShooping.Web\\Views\\Shared",
+    "\\GeekShooping\\GeekShooping.Web\\wwwroot"
   ],
-  "SelectedNode": "\\GeekShooping\\GeekShooping.Web\\Program.cs",
+  "SelectedNode": "\\GeekShooping\\GeekShooping.Web\\Views\\Product\\ProductDelete.cshtml",
   "PreviewInSolutionExplorer": false
 }

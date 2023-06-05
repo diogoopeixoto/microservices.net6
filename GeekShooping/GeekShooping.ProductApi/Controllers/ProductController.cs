@@ -50,7 +50,7 @@ namespace GeekShooping.ProductApi.Controllers
             
             return Ok(vO);
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(long id)
         {
             var status = await _repository.Delete(id);
