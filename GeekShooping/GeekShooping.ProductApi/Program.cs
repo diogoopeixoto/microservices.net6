@@ -44,7 +44,7 @@ namespace GeekShooping.ProductApi
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+                        
             app.UseAuthorization();
 
 

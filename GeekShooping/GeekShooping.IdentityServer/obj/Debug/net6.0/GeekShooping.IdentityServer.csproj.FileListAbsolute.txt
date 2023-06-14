@@ -398,3 +398,4 @@ C:\Users\diogopeixoto\OneDrive - UGB\Área de Trabalho\microservices.net6\GeekSh
 C:\Users\diogopeixoto\OneDrive - UGB\Área de Trabalho\microservices.net6\GeekShooping\GeekShooping.IdentityServer\obj\Debug\net6.0\GeekShooping.IdentityServer.pdb
 C:\Users\diogopeixoto\OneDrive - UGB\Área de Trabalho\microservices.net6\GeekShooping\GeekShooping.IdentityServer\obj\Debug\net6.0\GeekShooping.IdentityServer.genruntimeconfig.cache
 C:\Users\diogopeixoto\OneDrive - UGB\Área de Trabalho\microservices.net6\GeekShooping\GeekShooping.IdentityServer\obj\Debug\net6.0\ref\GeekShooping.IdentityServer.dll
+C:\Users\diogopeixoto\OneDrive - UGB\Área de Trabalho\microservices.net6\GeekShooping\GeekShooping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-5BD46739DE50A2D6C493497E982B1ECA.json
