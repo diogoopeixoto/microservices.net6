@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GeekShoping.CartAPI.props" />
+</Project>
